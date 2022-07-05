@@ -1,0 +1,24 @@
+{
+  "name": "my-tdd-node",
+  "version": "1.0.0",
+  "description": "test driven development app",
+  "main": "index.js",
+  "repository": "https://github.com/MohammedLamineOuahabi/tdd-nodejs-express.git",
+  "author": "ouahabi mohammed lamine",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "scripts": {
+    "dev": "nodemon app",
+    "test": "jest --watch"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^28.1.2",
+    "prettier": "^2.7.1",
+    "supertest": "^6.2.4"
+  }
+}
